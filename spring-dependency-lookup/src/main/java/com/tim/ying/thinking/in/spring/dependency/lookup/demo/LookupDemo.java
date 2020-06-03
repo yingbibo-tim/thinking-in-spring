@@ -21,7 +21,7 @@ import java.util.Map;
 public class LookupDemo {
 
 	public static void main(String[] args) {
-		ApplicationContext beanFactory = new ClassPathXmlApplicationContext("classpath:dependency-look-up-context.xml");
+		ApplicationContext beanFactory = new ClassPathXmlApplicationContext("classpath:dependency-lookup-context.xml");
 		lookupByName(beanFactory);
 		lookupByType(beanFactory);
 		lookupCollectionByType(beanFactory);
