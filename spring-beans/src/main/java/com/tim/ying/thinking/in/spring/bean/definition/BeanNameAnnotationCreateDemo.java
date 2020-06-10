@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
  * on 2020-05-16
  * email: yingbibo@canzhaoxi.com.cn
  */
-public class BeanNameRegisterDemo {
+public class BeanNameAnnotationCreateDemo {
 
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
-		applicationContext.register(BeanNameRegisterDemo.class,BeanNameAnnotation.class,BeanName.class);
+		applicationContext.register(BeanNameAnnotationCreateDemo.class,BeanNameAnnotation.class,BeanName.class);
 		applicationContext.refresh();
 		System.out.println(applicationContext.getBeansOfType(BeanName.class));
 		System.out.println(applicationContext.getBeansOfType(BeanNameAnnotation.class));
