@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="instance-by-method" class="com.tim.ying.thinking.in.spring.bean.pojo.User" factory-method="createUser"/>
+
+
+	<bean name="instance-by-factory" factory-bean="userFactory" factory-method="createUser" />
+
+	<bean name="userFactory" class="factory.DefaultUserFactory"/>
+
+	<bean name="instance-by-factory-bean" class="com.tim.ying.thinking.in.spring.bean.pojo.UserFactoryBean"/>
+
+
+</beans>
