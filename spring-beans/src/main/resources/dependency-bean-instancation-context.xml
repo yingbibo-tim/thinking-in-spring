@@ -14,5 +14,8 @@
 
 	<bean name="instance-by-factory-bean" class="com.tim.ying.thinking.in.spring.bean.pojo.UserFactoryBean"/>
 
+	<bean name = "serviceLoaderUserFactory" class="org.springframework.beans.factory.serviceloader.ServiceLoaderFactoryBean">
+		<property name="serviceType" value="factory.UserFactory"/>
+	</bean>
 
 </beans>
