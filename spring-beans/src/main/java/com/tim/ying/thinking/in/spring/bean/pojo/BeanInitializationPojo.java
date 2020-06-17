@@ -5,6 +5,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
 /**
  * @author yingbibo
@@ -37,6 +38,11 @@ public class BeanInitializationPojo implements InitializingBean, DisposableBean 
 
 	}
 
+	@PreDestroy
+	public void preDestroy(){
+		System.out.println("bean preDestroy");
+	}
+
 	/**
 	 * 销毁bean
 	 * @throws Exception
@@ -44,5 +50,9 @@ public class BeanInitializationPojo implements InitializingBean, DisposableBean 
 	@Override
 	public void destroy() throws Exception {
 		System.out.println("bean destroy");
+	}
+
+	public void destroyMethod()throws Exception{
+		System.out.println("bean destroyMethod");
 	}
 }

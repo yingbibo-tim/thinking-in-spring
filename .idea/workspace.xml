@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f734fce4-60df-40a2-a7b6-5e0a0d2f2c5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_beans_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_beans_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasig_cas_cas_server_webapp_war_4_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/spring-beans.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/spring-beans.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,16 +67,16 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="352">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#834#835#0" expanded="true" />
@@ -91,15 +86,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="17" column="185" selection-start-line="17" selection-start-column="185" selection-end-line="17" selection-end-column="185" />
+            <state relative-caret-position="19">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,8 +190,8 @@
         <option value="$PROJECT_DIR$/spring-beans/pom.xml" />
         <option value="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitialtionDemo.java" />
         <option value="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitialtionPojo.java" />
-        <option value="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java" />
         <option value="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java" />
+        <option value="$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java" />
       </list>
     </option>
   </component>
@@ -223,8 +220,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -571,19 +568,19 @@
       <workItem from="1591802524018" duration="2352000" />
       <workItem from="1591889188906" duration="2529000" />
       <workItem from="1592058640134" duration="4857000" />
-      <workItem from="1592213667046" duration="4019000" />
+      <workItem from="1592213667046" duration="4385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38179000" />
+    <option name="totallyTimeSpent" value="38545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30773956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30773956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -595,7 +592,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2607296" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38197425" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38197425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -710,13 +707,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java</url>
-          <line>31</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java</url>
-          <line>21</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -1077,7 +1074,7 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -1085,18 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,12 +1101,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/pojo/BeanInitializationPojo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="17" column="185" selection-start-line="17" selection-start-column="185" selection-end-line="17" selection-end-column="185" />
+        <state relative-caret-position="19">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/com/tim/ying/thinking/in/spring/bean/definition/BeanInitializationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
           </folding>
         </state>
       </provider>

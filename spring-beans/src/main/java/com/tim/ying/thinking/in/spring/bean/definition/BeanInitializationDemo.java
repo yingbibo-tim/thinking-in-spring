@@ -26,7 +26,7 @@ public class BeanInitializationDemo {
 		applicationContext.close();
 	}
 
-	@Bean(initMethod = "initMethod")
+	@Bean(initMethod = "initMethod",destroyMethod = "destroyMethod")
 	public BeanInitializationPojo beanInitializationPojo(){
 		return new BeanInitializationPojo();
 	}
